@@ -18,8 +18,7 @@ jobs:
 
       - name: Check required Part 1 files
         run: |
-          
-         test -f docs/ERD.png
-test -f docs/PROG.pdf
-test -f docs/SQLQuery1.sql
+          test -f docs/ERD.png
+          test -f docs/PROG.pdf
+          test -f docs/SQLQuery1.sql
           echo "All required Part 1 files are present."

@@ -18,7 +18,7 @@ jobs:
 
       - name: Check required Part 1 files
         run: |
-          test -d docs
+          test -d ./docs
           test -f docs/ERD.PNG
           test -f docs/PROG.PDF
           test -f docs/SQLQUERY.sql
